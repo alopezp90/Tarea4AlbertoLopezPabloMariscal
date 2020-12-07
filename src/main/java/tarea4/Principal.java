@@ -15,7 +15,19 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Autor pablo = new Autor ();
+        pablo.setNombre("Pablo");
+        pablo.setApellido ("Mariscal");
+        pablo.setYear (2020);
+        
+        Autor alberto = new Autor ();
+        alberto.setNombre("Alberto");
+        alberto.setApellido ("López");
+        alberto.setYear (2020);
+        
+        System.out.println(pablo.toString());
+        System.out.println(alberto.toString());
+        
     }
     
 }
