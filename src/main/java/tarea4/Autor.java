@@ -6,9 +6,9 @@ package tarea4;
  */
 public class Autor {
     
-    String nombre;
-    String apellido;
-    int year;
+    private String nombre;
+    private String apellido;
+    private int year;
     
     public Autor (String nombre, String apellido, int year) {
         this.nombre = nombre;
@@ -20,6 +20,30 @@ public class Autor {
         this.nombre = "";
         this.apellido = "";
         this.year = 0;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+    public void setYear(int year) {
+        this.year = year;
     }
     
 
