@@ -45,6 +45,11 @@ public class Autor {
     public void setYear(int year) {
         this.year = year;
     }
+
+    @Override
+    public String toString() {
+        return "Autor{" + "nombre=" + nombre + ", apellido=" + apellido + ", year=" + year + '}';
+    }
     
 
 }
